@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-component-pac-ckyhvl
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-lxvb-tenant/build-suite-test-application-dmhl/test-component-pac-ckyhvl@sha256:b6b27b5f46c429be1db107286b04a20abc06cae32dcbf92776d1409943e35ee5
         name: my-nginx
         ports:
         - containerPort: 8080
